@@ -4,7 +4,6 @@ import { Outlet } from "react-router-dom";
 const HomeLayout = () => {
   return (
     <React.Fragment>
-      <nav>NavBar</nav>
       <Outlet />
     </React.Fragment>
   );
